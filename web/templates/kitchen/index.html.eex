@@ -1,0 +1,14 @@
+<div class="col-sm-3 col-md-2 sidebar">
+    <ul class="nav nav-sidebar">
+	<li><a href="user">User</a></li>
+	<li><a href="kitchen">Kitchen</a></li>
+	<li><a href="pantry">Pantry</a></li>
+	<!-- <li><a href="grocery">List</a></li> -->
+    </ul>
+</div>
+<div class="jumbotron">
+    you are in the kitchen
+    <br>.
+    <br>.
+    <br>
+</div>

@@ -17,7 +17,12 @@ defmodule ProtoSite.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+		get "/user", UserController, :index
+		get "/kitchen", KitchenController, :index
+		get "/pantry", PantryController, :index
+		get "/help", HelpController, :index
   end
+
 
   # Other scopes may use custom stacks.
   # scope "/api", ProtoSite do
